@@ -1,0 +1,6 @@
+adapter: 'mysql2'
+host: 127.0.0.1
+port: 3306
+database: 'university'
+username: 'root'
+password: 'password'

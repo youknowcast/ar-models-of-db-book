@@ -27,6 +27,10 @@ GEM
       concurrent-ruby (~> 1.0)
     minitest (5.20.0)
     mutex_m (0.1.2)
+    mysql2 (0.5.5)
+    pg (1.5.4)
+    postgresql (1.0.0)
+      pg
     ruby2_keywords (0.0.5)
     sqlite3 (1.6.7-arm64-darwin)
     timeout (0.4.0)
@@ -38,6 +42,8 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (~> 7.1.0)
+  mysql2
+  postgresql
   sqlite3
 
 BUNDLED WITH
