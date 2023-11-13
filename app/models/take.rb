@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Take < ActiveRecord::Base
   self.primary_key = %i[ID course_id sec_id semester year]
 

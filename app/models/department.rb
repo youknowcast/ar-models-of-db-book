@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Department < ActiveRecord::Base
   self.table_name = 'department'
 
