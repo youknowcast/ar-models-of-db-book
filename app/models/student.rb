@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Student < ActiveRecord::Base
   self.table_name = 'student'
 

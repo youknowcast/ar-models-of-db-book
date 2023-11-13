@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Course < ActiveRecord::Base
   self.table_name = 'course'
   self.primary_key = :course_id

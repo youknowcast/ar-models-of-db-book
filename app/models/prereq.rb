@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Prereq < ActiveRecord::Base
   self.table_name = 'prereq'
   self.primary_key = %i[course_id prereq_id]
