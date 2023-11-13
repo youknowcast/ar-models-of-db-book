@@ -49,3 +49,7 @@ then, install gems.
 % irb
 % require './app/database_setup' 
 ```
+
+### mysql and postgresql environment
+
+see: https://gist.github.com/youknowcast/7df2991de81e7812585892bed201b91b
