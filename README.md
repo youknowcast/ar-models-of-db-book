@@ -38,6 +38,9 @@ then, install gems.
 % bundle install
 ```
 
+need to create new database university with using DDL.sql(db-book.com).
+then, use mysql or postgresql as below.
+
 ```
 # use mysql
 % export DB_TYPE=mysql
@@ -53,3 +56,25 @@ then, install gems.
 ### mysql and postgresql environment
 
 see: https://gist.github.com/youknowcast/7df2991de81e7812585892bed201b91b
+
+change app/config/*.yml like below:
+
+mysql.yml
+```yaml
+adapter: 'mysql2'
+host: mysql-db
+port: 3306
+database: 'university'
+username: 'root'
+password: 'password'
+```
+
+postgresql.yml
+```yaml
+adapter: 'postgresql'
+host: postgres-db
+port: 5432
+database: 'university'
+username: 'postgres'
+password: 'password'
+```
